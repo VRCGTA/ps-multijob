@@ -19,6 +19,7 @@ Config.WhitelistJobs = {
 	["mechanic"] = true,
 	["judge"] = true,
 	["lawyer"] = true,
+	["reporter"] = true,
 }
 
 Config.Descriptions = {
