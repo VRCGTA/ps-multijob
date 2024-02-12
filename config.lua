@@ -9,8 +9,8 @@ Config.IgnoredJobs = {
 }
 
 Config.DenyDuty = {
-	["ambulance"] = true,
-	["police"] = true,
+	["ambulance"] = false,
+	["police"] = false,
 }
 
 Config.WhitelistJobs = {
