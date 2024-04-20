@@ -21,11 +21,11 @@
 	export let category: string;
 
 	function getDutyText(onDuty: boolean) {
-		return onDuty ? "On Duty" : "Off Duty";
+		return onDuty ? "勤務中" : "退勤中";
 	}
 
 	function getSelectText(select: boolean) {
-		return select ? "Selected" : "Unselect";
+		return select ? "選択中" : "解除する";
 	}
 
 	const { activeJob, onDuty, setActiveJob, toggleDuty, unSetActiveJob, deleteJob } = JobStore;
